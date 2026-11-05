@@ -30,10 +30,11 @@ const dialog = document.querySelector('#project-dialog');
 let filter = 'all';
 let lastOpener = null;
 function escapeHtml(value){return String(value).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+const solidVideoLink = '<a class="text-link solid-video-link" href="solid-station/index.html">观看三维仿真视频 ↗</a>';
 function render(){
  const query=search.value.trim().toLowerCase();
  const visible=projects.filter(p=>(filter==='all'||p.category===filter)&&`${p.title} ${p.summary} ${p.tags.join(' ')} ${p.state}`.toLowerCase().includes(query));
- grid.innerHTML=visible.map(p=>`<article class="project-card"><div class="card-top"><span class="category">${categories[p.category]}</span><span>PROJECT STUDY</span></div><h3>${p.title}</h3><p>${p.summary}</p><div class="card-tags">${p.tags.map(t=>`<span>${escapeHtml(t)}</span>`).join('')}</div><div class="card-state">${p.state}</div><button class="text-link" data-project="${p.id}" aria-label="查看${p.title}详情">问题、方案与验证 ↗</button></article>`).join('');
+ grid.innerHTML=visible.map(p=>`<article class="project-card"><div class="card-top"><span class="category">${categories[p.category]}</span><span>PROJECT STUDY</span></div><h3>${p.title}</h3><p>${p.summary}</p><div class="card-tags">${p.tags.map(t=>`<span>${escapeHtml(t)}</span>`).join('')}</div><div class="card-state">${p.state}</div><button class="text-link" data-project="${p.id}" aria-label="查看${p.title}详情">问题、方案与验证 ↗</button>${p.id === 'solid' ? solidVideoLink : ''}</article>`).join('');
  document.querySelector('#result-label').textContent=`${visible.length} 项精选案例 · 另有六足机器人重点项目与完整项目地图`;
  document.querySelector('#empty').hidden=visible.length>0;
 }
@@ -41,7 +42,7 @@ function openProject(p,opener){
  lastOpener=opener;
  document.querySelector('#dialog-category').textContent=categories[p.category]+' / PROJECT DETAIL';
  document.querySelector('#dialog-title').textContent=p.title;
- document.querySelector('#dialog-content').innerHTML=`<h3>要解决的问题</h3><p>${escapeHtml(p.problem)}</p><h3>本人职责</h3><p>${escapeHtml(p.role)}</p><h3>方案与实现</h3><ul>${p.solution.map(t=>`<li>${escapeHtml(t)}</li>`).join('')}</ul>${p.id==='hexapod'?'<p><a class="text-link" href="hexapod/index.html">打开六足三维互动模型 ↗</a></p><img src="assets/image4.jpg" alt="早期打印关节实物试装照片，非V12整机完成照片"><p>早期打印试装实物照片。CAD 展示与实物状态分开说明。</p>':''}<h3>验证依据</h3><p>${escapeHtml(p.evidence)}</p><h3>当前边界</h3><p class="boundary">${escapeHtml(p.boundary)}</p>`;
+ document.querySelector('#dialog-content').innerHTML=`${p.id === 'solid' ? '<p>' + solidVideoLink + '</p>' : ''}<h3>要解决的问题</h3><p>${escapeHtml(p.problem)}</p><h3>本人职责</h3><p>${escapeHtml(p.role)}</p><h3>方案与实现</h3><ul>${p.solution.map(t=>`<li>${escapeHtml(t)}</li>`).join('')}</ul>${p.id==='hexapod'?'<p><a class="text-link" href="hexapod/index.html">打开六足三维互动模型 ↗</a></p><img src="assets/image4.jpg" alt="早期打印关节实物试装照片，非V12整机完成照片"><p>早期打印试装实物照片。CAD 展示与实物状态分开说明。</p>':''}<h3>验证依据</h3><p>${escapeHtml(p.evidence)}</p><h3>当前边界</h3><p class="boundary">${escapeHtml(p.boundary)}</p>`;
  dialog.showModal();dialog.scrollTop=0;
 }
 document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{filter=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});render();}));
