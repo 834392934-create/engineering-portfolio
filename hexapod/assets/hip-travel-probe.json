@@ -1,0 +1,3758 @@
+{
+  "status": "completed_sampled_only",
+  "scope": "V12/V13 single leg, major printed parts + servo + horn + ear clamps; yaw=0, knee=65; excludes body, other legs, small fasteners, ground and wiring",
+  "servo_travel_deg_user": 180,
+  "midpoint_installation_calibrated": false,
+  "continuous_proof": false,
+  "gap_threshold_mm": 2,
+  "poses": [
+    {
+      "hip_deg": 25,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999937,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -90,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999937,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.3999997999999962,
+          "method": "clipped-solid AABB lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -85,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999906,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.3999997999999962,
+          "method": "clipped-solid AABB lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -80,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999996,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.3999997999999962,
+          "method": "clipped-solid AABB lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -75,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999991,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -70,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999946,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -65,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -60,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999993,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_left"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -55,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.39999999999999,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_left"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -50,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_left"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -45,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999994,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_left"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -40,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999893,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -35,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999977,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -30,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999906,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -25,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999937,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -20,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999946,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -15,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999937,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -10,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": -5,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999932,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 0,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 5,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 10,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999932,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 15,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999997,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 20,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999955,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 25,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999937,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 30,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999994,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 35,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999997,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 40,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999989,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 45,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999994,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_left"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 50,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_left"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 55,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999993,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_left"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 60,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999986,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "coxa",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_left"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 65,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 70,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999906,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 75,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999924,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 80,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999946,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.3999997999999962,
+          "method": "clipped-solid AABB lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 85,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.399999999999992,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.3999997999999962,
+          "method": "clipped-solid AABB lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    },
+    {
+      "hip_deg": 90,
+      "checked_pairs": 111,
+      "passed": true,
+      "failures": [],
+      "near": [
+        {
+          "pair": [
+            "root_mount",
+            "coxa"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "femur"
+          ],
+          "gap_mm": 2.3999999999999932,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "coxa",
+            "yaw_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "tibia"
+          ],
+          "gap_mm": 2.3999999999999995,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_servo"
+          ],
+          "gap_mm": 2.3999997999999962,
+          "method": "clipped-solid AABB lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "hip_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "femur",
+            "knee_horn"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_servo"
+          ],
+          "gap_mm": 2.4000000000000004,
+          "method": "BRep exact minimum distance (bounded neighborhood)"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_left"
+          ],
+          "gap_mm": 2.4523086963764094,
+          "method": "AABB lower bound"
+        },
+        {
+          "pair": [
+            "tibia",
+            "knee_ear_clamp_right"
+          ],
+          "gap_mm": 3.0,
+          "method": "expanded-AABB exclusion lower bound"
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "cad/v12_leg.py": "b11c203e6f15b8cc5a276b781ec72cd960409d229b6bd73002317f859de67e4a",
+    "cad/v12_mounts.py": "2335ee0744d98abf8b463e12fed3f17f4b054e0296df5af6621cbfd324238066",
+    "cad/v7_leg.py": "04e81294cf77179e00728427ddec561666b9740b7fca266609b858d1d4c94a09",
+    "scripts/audit_v12_interfaces.py": "43244070e2f7dbc0a4e20069505b19852f642c2d800adce1ed3cdbfdc861b4d6"
+  },
+  "elapsed_seconds": 295.48499999998603,
+  "motor_midpoint_horizontal": "User-approved installation target; not physically tested",
+  "functional_pairs": "Named mating exemptions inherited from scripts/audit_v12_interfaces.py and audit_v7_robot.py; not free clearance pairs",
+  "sampling": "5 degree increment; yaw0/knee65; single-leg major-component test only",
+  "all_samples_passed": true,
+  "physical_motion_limit_calibrated": false
+}
