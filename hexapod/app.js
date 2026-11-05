@@ -1,3 +1,4 @@
+import {loadMesh} from './mesh-loader.js';
 import * as THREE from './vendor/three.module.js';
 import {OrbitControls} from './vendor/OrbitControls.js';
 import {STLLoader} from './vendor/STLLoader.js';
@@ -29,7 +30,11 @@ function fail(id, error) {
   const image = document.createElement('img');
   image.className = 'view-preview';
   const entry = results?.cases.find(row => row.part === $('fea-part').value && row.case === $('fea-pose').value);
-  image.src = isRobot ? 'assets/hero.png' : 'assets/fea/' + (entry?.surface_file.replace('.surface.json', '.png') || 'femur_neutral_joint_healed_3p2.png');
+  if (isRobot) image.onerror = () => {
+    image.onerror = null;
+    image.src = 'assets/hero.png';
+  };
+  image.src = isRobot ? 'assets/hero.webp' : 'assets/fea/' + (entry?.surface_file.replace('.surface.json', '.png') || 'femur_neutral_joint_healed_3p2.png');
   image.alt = isRobot ? 'V13 六足机器人装配图' : '当前工况的静态有限元云图';
   const note = document.createElement('p');
   note.className = 'loading';
@@ -83,7 +88,19 @@ async function initRobot(){
   if(!assembly.metadata.mounts)throw Error('源装配缺少髋根坐标');
   robot=makeView('robot-view');const group=new THREE.Group();robot.scene.add(group);
   const meshes={},loader=new STLLoader();
-  await Promise.all(assembly.categories.map(async c=>{const geometry=await loader.loadAsync('assets/meshes/'+c.path);geometry.computeVertexNormals();meshes[c.category]=geometry;}));
+  const total = assembly.categories.length;
+  let loaded = 0;
+  function showProgress() {
+    $('model-status').textContent = `已加载 ${loaded}/${total} 个网格`;
+  }
+  showProgress();
+  await Promise.all(assembly.categories.map(async category => {
+    const geometry = await loadMesh(loader, 'assets/meshes/' + category.path);
+    geometry.computeVertexNormals();
+    meshes[category.category] = geometry;
+    loaded++;
+    showProgress();
+  }));
   const roots={};for(const r of assembly.occurrences.filter(r=>r.leg&&r.name.endsWith('_coxa')))roots[r.leg]=matrix(r.matrix_mm);
   for(const row of assembly.occurrences){const color=row.category==='servo'?'#303d42':row.category==='horn'||row.category.startsWith('bearing')?'#bbc4c6':['coxa','femur','tibia','spoke_long','spoke_short'].includes(row.category)?'#2f7a80':'#a9b7b7';
     const mesh=new THREE.Mesh(meshes[row.category],new THREE.MeshStandardMaterial({color,roughness:.65,metalness:row.category==='horn'?.45:.08}));
